@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link
+      rel="stylesheet"
+      href="https://video-react.github.io/assets/video-react.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Raleway"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+    <style>
+      body {
+        background: #eeeeee;
+        font-family: "Varela Round", sans-serif;
+      }
+      .form-inline {
+        display: inline-block;
+      }
+      .navbar {
+        background: #fff;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-bottom: 1px solid #d6d6d6;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+      }
+      .nav img {
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        margin: -8px 0;
+        float: left;
+        margin-right: 10px;
+      }
+      .navbar .navbar-brand {
+        color: #555;
+        padding-left: 0;
+        font-size: 20px;
+        padding-right: 50px;
+        font-family: "Raleway", sans-serif;
+      }
+      .navbar .navbar-brand b {
+        font-weight: bold;
+        color: #eb5844;
+      }
+      .navbar ul.nav li a:hover,
+      .navbar ul.nav li a:focus {
+        color: #f08373 !important;
+      }
+      .navbar ul.nav li.active a,
+      .navbar ul.nav li.active a:hover,
+      .navbar ul.nav li.active a:focus {
+        color: #eb5844 !important;
+        background: transparent !important;
+      }
+      .search-box {
+        position: relative;
+      }
+      .search-box input.form-control {
+        padding-right: 35px;
+        border-radius: 0;
+        padding-left: 0;
+        border-width: 0 0 1px 0;
+        box-shadow: none;
+      }
+      .search-box input.form-control:focus {
+        border-color: #f08373;
+      }
+      .search-box .input-group-addon {
+        min-width: 35px;
+        border: none;
+        background: transparent;
+        position: absolute;
+        right: 0;
+        z-index: 9;
+        padding: 7px 0 7px 7px;
+        height: 100%;
+      }
+      .search-box i {
+        color: #a0a5b1;
+        font-size: 19px;
+      }
+      .navbar ul li i {
+        font-size: 18px;
+      }
+      .navbar .dropdown-menu i {
+        font-size: 16px;
+        min-width: 22px;
+      }
+      .navbar .dropdown.open > a {
+        background: none !important;
+      }
+      .navbar .dropdown-menu {
+        border-radius: 1px;
+        border-color: #e5e5e5;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      }
+      .navbar .dropdown-menu li a {
+        color: #777;
+        padding: 8px 20px;
+        line-height: normal;
+      }
+      .navbar .navbar-form {
+        margin-right: 0;
+        margin-left: 0;
+        border: 0;
+      }
+      @media (min-width: 992px) {
+        .form-inline .input-group {
+          width: 250px;
+          margin-right: 30px;
+        }
+      }
+      @media (max-width: 991px) {
+        .form-inline {
+          display: block;
+          margin-bottom: 10px;
+          margin-top: 0;
+        }
+        .input-group {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
